@@ -8,12 +8,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color:blueviolet;
+    background-color: black;
 
 }
 
 img#hero {
-    height: 350px;
+    height: 500px;
     border-radius: 200%;
     margin: 50px;
 }
@@ -27,16 +27,16 @@ img#hero {
 
 h1#hero {
     color:white;
-    font-size: 50px;
-    font-family: 'Press Start 2P', cursive;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2#hero {
-    color:white;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: goldenrod;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav{
-    background-color:rgb(35, 9, 107);
+    background-color:goldenrod
 }
 ul{
     display: flex;
@@ -56,13 +56,13 @@ li a:hover{
 footer{
     position: fixed;
     bottom: 0px;
-    background-color: rgb(10, 0, 155);
+    background-color: black;
     width: 100%;
     text-align: center;
 
 }
 footer h5#letra{
-    color: rgb(255, 255, 255);
+    color: papayawhip;
 }
 img#fotinha{
     height: 1000px;
@@ -78,3 +78,33 @@ p#textinho{
     font-family: 'Alfa Slab One', cursive;
         
 }
+main{
+    background-color: black;
+    
+}
+p#texto1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: left;
+    
+}
+p#texto2{
+    color: aliceblue;
+    font-size: 40px;
+}
+p#texto3{
+    color: aliceblue;
+    font-size: 40px;
+}
+p#texto4{
+    color: aliceblue;
+    font-size: 40px;
+}
+main section#perfil{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
