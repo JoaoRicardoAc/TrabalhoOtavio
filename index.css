@@ -38,7 +38,7 @@ h2#hero {
 nav{
     background-color: royalblue;
 }
-ul{
+ul#menu{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -108,10 +108,14 @@ br#texto4{
 main section#perfil{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+
     flex-direction: column;
     text-align: left;
     font-family: 'Lobster', cursive;
     font-size: 40px;
     color: white;
+}
+ul#persona2{
+    justify-content: left;
+   
 }
