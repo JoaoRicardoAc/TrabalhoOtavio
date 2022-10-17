@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: darkblue;
 
 }
 
@@ -27,16 +27,16 @@ img#hero {
 
 h1#hero {
     color:white;
-    font-size: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    font-family: 'Dela Gothic One', cursive;
 }
 h2#hero {
-    color: goldenrod;
+    color: aliceblue;
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Dela Gothic One', cursive;
 }
 nav{
-    background-color:goldenrod
+    background-color: royalblue;
 }
 ul{
     display: flex;
@@ -44,7 +44,7 @@ ul{
     list-style: none;
 }
 li a{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 30px;
     text-decoration: none;
     color: aliceblue;
@@ -56,7 +56,7 @@ li a:hover{
 footer{
     position: fixed;
     bottom: 0px;
-    background-color: black;
+    background-color: royalblue;
     width: 100%;
     text-align: center;
 
@@ -75,30 +75,35 @@ p#textinho{
      top: 650px;
     left: 50%;
     color: white;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Lobster', cursive;
         
 }
 main{
-    background-color: black;
+    background-color: darkblue;
     
 }
-p#texto1{
+br#texto1{
     color: aliceblue;
     font-size: 40px;
     text-align: left;
+    font-family: 'Lobster', cursive;
     
 }
-p#texto2{
+br#texto2{
     color: aliceblue;
     font-size: 40px;
+    font-family: 'Lobster', cursive;
+
 }
-p#texto3{
+br#texto3{
     color: aliceblue;
     font-size: 40px;
+    font-family: 'Lobster', cursive;
 }
-p#texto4{
+br#texto4{
     color: aliceblue;
     font-size: 40px;
+    font-family: 'Lobster', cursive;
 }
 main section#perfil{
     display: flex;
@@ -106,5 +111,7 @@ main section#perfil{
     align-items: center;
     flex-direction: column;
     text-align: left;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: white;
 }
-
